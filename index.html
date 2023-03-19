@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PopQuiz!</title>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section class="slide" id="slide1">
-    <!-- The Title of the page -->
-    <div class="MainHeading">
-    <h1>Coding Challage</h1>
-    </div>
-    <!-- creating the container in which will help us format later in CSS -->
-    <div class="container">
-        <p>Answer the questions bellow correctly within the time limit. BUT IF YOU GET SOMETHING WRONG YOUR SCORE WILL DECREASE!!</p>
-    </div>
-    <!-- adding a button to the screen -->
-    <div class="button">
-        <button type="button" class ="btn btn-primary" id="start-button">Start Quiz</button>
-    </div>
-</section>
-<!-- adding different sections to be associated with a slide number that way we can add questions in js -->
-<section class="slide" id="slide2">
-    <div class="mainContainer">
-        <h1 id="Question1"></h1>
-    </div>
-    <div class="textContainer">
-        <ul id="listAnswer">
-        </ul>
-        <div class="nextPage">
-        <button type="button" class ="btn btn-primary" id="start-button">Start Quiz</button>
-    </div>
-</div>
 
-</section>
+<body>
+    <nav>Score</nav>
+    <section class="slide" id="slide1">
+        <!-- The Title of the page -->
+        <div class="MainHeading">
+            <h1>Coding Challenge</h1>
+        </div>
+        <!-- creating the container in which will help us format later in CSS -->
+        <div class="container">
+            <p>Answer the questions bellow correctly within the time limit. BUT IF YOU GET SOMETHING WRONG YOUR SCORE
+                WILL DECREASE!!</p>
+        </div>
+        <!-- adding a button to the screen -->
+        <div class="button">
+            <button type="button" class="btn btn-primary" id="start-button">Start Quiz</button>
+        </div>
+    </section>
+    <!-- adding different sections to be associated with a slide number that way we can add questions in js -->
+    <section class="slide" id="slide2">
+        <div class="mainContainer">
+            <h1 id="Question1"></h1>
+        </div>
+        <div class="textContainer">
+            <ul id="listAnswer">
+            </ul>
+            <div class="nextPage">
+                <button type="button" class="btn btn-primary" id="start-button">Next</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- slide number 3  -->
+    <section class="slide" id="slide3">
+        <div class="mainContainer">
+            <h1 id="Question1"></h1>
+        </div>
+        <div class="textContainer">
+            <ul id="listAnswer">
+            </ul>
+            <div class="nextPage">
+                <button type="button" class="btn btn-primary" id="start-button">Next</button>
+            </div>
+            <!-- slide number 4 -->
+            <section class="slide" id="slide4">
+                <div class="mainContainer">
+                    <h1 id="Question1"></h1>
+                </div>
+                <div class="textContainer">
+                    <ul id="listAnswer">
+                    </ul>
+                    <div class="nextPage">
+                        <button type="button" class="btn btn-primary" id="start-button">Next</button>
+                    </div>
+                </div>
+                <!-- slide number 5 -->
+                <section class="slide" id="slide5">
+                    <div class="mainContainer">
+                        <h1 id="Question1"></h1>
+                    </div>
+                    <div class="textContainer">
+                        <ul id="listAnswer">
+                        </ul>
+                        <div class="nextPage">
+                            <button type="button" class="btn btn-primary" id="start-button">Next</button>
+                        </div>
+                    </div>
+        </div>
 </body>
+
 </html>
